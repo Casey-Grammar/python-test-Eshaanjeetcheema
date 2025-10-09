@@ -16,11 +16,18 @@ All good.
 ========================= 
 
 '''
+from itertools import count
+
+
 def main():
     x="Task3a"
     #===============================
     # Write your code here
-    
+    amount = int(input('Remaining charge:'))
+if count > 1 and count < 5:
+  print(f'Connect your charger!')
+else:
+  print('All good.')
 
     # End of your code here
     #===============================

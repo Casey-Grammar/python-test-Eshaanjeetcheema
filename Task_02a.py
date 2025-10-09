@@ -29,8 +29,8 @@ def main():
   x="Task2a"
   #===============================
   # Write your code here
-    text = input()
-if text == 'Marco!':
+  text = input()
+if  'Marco!':
   print(f'Polo!') 
 
   # End of your code here

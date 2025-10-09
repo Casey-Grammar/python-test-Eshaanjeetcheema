@@ -22,7 +22,7 @@ def main():
     x="Task2b"
     #===============================
     # Write your code here
-        text = input("Text: ")
+    text = input("Text: ")
     if text.lower() == "Marco!":
         print("Polo!")
     # End of your code here

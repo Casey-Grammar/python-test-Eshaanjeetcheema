@@ -9,6 +9,9 @@ Shout: hello
 hello hello hello
 =========================  
 '''
+from Task_07 import hello
+
+
 def main():
     x = "Task1a"
     #===============================
