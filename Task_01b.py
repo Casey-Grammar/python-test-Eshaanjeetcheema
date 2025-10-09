@@ -18,11 +18,17 @@ def main():
     x="Task1b"
     #===============================
     # Write your code here
-
-
-
-
-    # End of your code here
+    # Ask user to shout something
+    shout = input("Shout: ")
+    
+    # Print echo on the same line, repeated 3 times
+    print(shout, shout, shout)
+    
+    # Print echo on separate lines, repeated 3 times
+    print(shout)
+    print(shout)
+    print(shout)
+        # End of your code here
     # #===============================
 
 if __name__ == '__main__':

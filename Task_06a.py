@@ -33,7 +33,23 @@ def main():
     x="Task6a"
     #===============================
     # Write your code here
+    def main():
+    # Read the input message
+     message = input("Say: ")
     
+    # Find the last letter of the word
+    last_letter = message[-1] # type: ignore
+    
+    # Add 5 more repeats of the last letter to the original word
+    # So total last letters = original 1 + 5 repeats = 6 in total
+    new_message = message + last_letter * 5 + "!" # type: ignore
+    
+    # Print the emphasized message
+    print(new_message)
+
+if __name__ == '__main__':
+    main()
+
 
     # End of your code here
     #===============================

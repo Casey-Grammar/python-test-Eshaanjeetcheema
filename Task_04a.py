@@ -29,10 +29,27 @@ Years until your letter...
 =========================
 
 '''
+from matplotlib.dviread import Page
+
+
 def main():
     x="Task4a"
     #===============================
     # Write your code here
+    def main():
+    # Ask the user for their age
+     age = int(input("How old are you? "))
+    
+    # Calculate years until the letter (100 - age)
+    years_until_letter = 100 - Page
+    
+    # Print the result
+    print("Years until your letter...")
+    print(years_until_letter)
+
+if __name__ == '__main__':
+    main()
+
     
 
     # End of your code here

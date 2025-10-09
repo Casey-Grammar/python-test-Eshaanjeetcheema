@@ -36,6 +36,17 @@ def main():
     x="Task5"
     #===============================
     # Write your code here
+    def main():
+    # Ask the user how many sheep to count
+     number_of_sheep = int(input("How many sheep: "))
+    
+    # Count from 1 up to number_of_sheep, printing each number with "sheep"
+    for i in range(1, number_of_sheep + 1): # type: ignore
+        print(f"{i} sheep")
+
+if __name__ == '__main__':
+    main()
+
     
 
     # End of your code here
