@@ -37,13 +37,30 @@ HINT: Use "!" as the symbol in front of the songs!
 
 '''
 
+from pkg_resources import safe_name
+
+
 def main():
     x="Task8"
     #===============================
     # Write your code here
+    def main():
+    # Ask for the band name
+     band_name = input("Band: ")
     
-
+    # Ask for the space-separated song titles
+    songs = input("Songs: ").split()
     
+    # Print welcome message
+    print(f"Please welcome to the stage, {band_name}!") # type: ignore
+    print("They will be playing...")
+    
+    # Print each song with ! in front
+    for song in songs:
+        print(f"! {song}")
+    
+    # Final cheer for the band
+    print(f"Give it up for {band_name}!") # type: ignore
     # End of your code here
     #===============================
 

@@ -27,6 +27,25 @@ def main():
     x="Task9b"
     #===============================
     # Write your code here
+    racers = ["Dash", "Speedy", "Lighting", "Flash", "Sonic"]
+    
+     # Print the initial lineup
+    print("And the line up is: " + ", ".join(racers))
+     
+     # Ask for the name of the snail who went to sleep
+    sleepy_snail = input("Who's gone to sleep? ")
+    
+     # Check if the snail is in the list
+    if sleepy_snail in racers:
+        # Replace their name with 'Disqualified'
+        index = racers.index(sleepy_snail)
+        racers[index] = "Disqualified"
+        print(f"{sleepy_snail} has been disqualified!")
+    else:
+        print("All snails still awake.")
+    
+     # Print the remaining racers
+     #  print("Remaining racers: " + ", ".join(racers))
     
 
     # End of your code here
