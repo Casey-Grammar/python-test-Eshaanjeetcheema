@@ -19,12 +19,12 @@ def main():
     #===============================
     # Write your code here
     amount = int(input('Remaining charge:'))
-if count > 1 and count < 5:
-  print(f'Connect your charger!')
-else:
-  print('All good.')
-Pylance: count > 5 and count < 50 # type: ignore
-print('You should charge your phone soon!')
+#if count > 1 and count < 5:
+#  print(f'Connect your charger!')
+#else:
+#  print('All good.')
+#Pylance: count > 5 and count < 50 # type: ignore
+#print('You should charge your phone soon!')
 
 
     # End of your code here
