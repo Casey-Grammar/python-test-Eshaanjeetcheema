@@ -11,7 +11,7 @@ You already got your letter 11 years ago
 ========================= 
 
 '''
-from matplotlib.dviread import Page
+#from matplotlib.dviread import Page
 
 
 def main():
@@ -31,8 +31,8 @@ def main():
         print("Years until your letter...")
         print(years_until_letter)
 
-if __name__ == '__main__':
-    main()
+#if __name__ == '__main__':
+#    main()
 
 
     # End of your code here
